@@ -1,0 +1,63 @@
+{
+    "intents":[
+        {
+            "tag":"Intro",
+            "patterns":[
+                "hi","hello","how are you","yo","whats up","listen"
+            ],
+            "responses":["Hello","Hello! How can i help you?","I am good! How are you?"],
+            "context_set":" "
+        },
+        {
+            "tag":"Chemical Formula",
+            "patterns":[
+                "What is Chemical Formula of Oxygen", "What is Chemical Formula of Water",
+                "What is Chemical Formula of Hydrogen", "What is Chemical Formula of Carbon dioxide",
+                "What is Chemical Formula of Methane", "What is Chemical Formula of Ammonia",
+                "What is Chemical Formula of Sodium chloride (table salt)", "What is Chemical Formula of salt",
+                "What is Chemical Formula of Sulfuric acid", "What is Chemical Formula of Nitric acid",
+                "What is Chemical Formula of Glucose", "What is Chemical Formula of Ethanol",
+                "What is Chemical Formula of Carbon monoxide", "What is Chemical Formula of Sulfur dioxide",
+                "What is Chemical Formula of Hydrochloric acid ","What is Chemical Formula of Methanol"
+            ],
+            "responses":[
+                "Chemical Formula of Oxygen is O₂", "Chemical Formula of Water is H₂O",
+                "Chemical Formula of Hydrogen is H₂", "Chemical Formula of Carbon dioxide is CO₂",
+                "Chemical Formula of Methane is CH₄", "Chemical Formula of Ammonia is NH₃",
+                "Chemical Formula of Sodium chloride (table salt) is NaCl",
+                "Chemical Formula of salt is NaCl", "Chemical Formula of Sulfuric acid is H₂SO₄",
+                "Chemical Formula of Nitric acid is HNO₃", "Chemical Formula of Glucose is C₆H₁₂O₆",
+                "Chemical Formula of Ethanol is C₂H₅OH", "Chemical Formula of Carbon monoxide is CO",
+                "Chemical Formula of Sulfur dioxide is SO₂", "Chemical Formula of Hydrochloric acid is HCl",
+                "Chemical Formula of Methanol is CH₃OH"
+            ],
+            "context_set":" "
+        },
+        {
+            "tag":"Basic Laws",
+            "patterns":[
+                "What is Newtons First law", "What is Newtons Second law",
+                "What is Third law", "What is Law of universal gravitation",
+                "What is Law of conservation of energy ",
+                "What is Law of conservation of mass", "What is Electromagnetism or Maxwell's Equations",
+                "What is The First Law of Thermodynamics", "What is The Second Law of Thermodynamics",
+                "What is Boyle's Law", "What is Ohm's law","What is Charles's Law"
+            ],
+            "responses":[
+                "Newtons first law states that an object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an external force.",
+                "Newtons second law states that the force acting on an object is equal to the mass of that object multiplied by its acceleration (F = ma).",
+                "Newtons third law states that for every action, there is an equal and opposite reaction.",
+                "Law of universal gravitation states that every point mass attracts every other point mass in the universe with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers.",
+                "Law of conservation of energy states that energy cannot be created or destroyed, only transferred or converted from one form to another.",
+                "Law of conservation of mass states that in a chemical reaction, the total mass of the reactants is equal to the total mass of the products.",
+                "Electromagnetism or Maxwell's Equations is a set of four fundamental equations describing how electric and magnetic fields interact.",
+                "The First Law of Thermodynamics states that energy cannot be created or destroyed in an isolated system.", 
+                "The Second Law of Thermodynamics introduces the concept of entropy, stating that the total entropy of an isolated system can never decrease over time.",
+                "Ohm's law states that the current passing through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them (V = IR).",
+                "Boyle's Law states that the pressure of a gas is inversely proportional to its volume at constant temperature.",
+                "Charles's Law states that the volume of a gas is directly proportional to its temperature at constant pressure."
+            ],
+            "context_set":" "
+        }
+    ]
+}

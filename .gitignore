@@ -1,0 +1,14 @@
+
+.idea
+.idea/
+
+### Python ###
+__pycache__/
+
+env/
+env
+
+pyproject.toml
+requirements.txt
+
+/chatbot.h5
